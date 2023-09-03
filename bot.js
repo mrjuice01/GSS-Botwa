@@ -385,16 +385,8 @@ break;
                  } 
  break;
   
- /* 
- case 'runtime': { 
-  
-                     let lowq = `*The Bot Has Been Online For:*\n*${runtime(process.uptime())}*` 
-  
-                 m.reply(lowq) 
-         } 
- break;
- */ 
-  
+
+ 
                  case 'can': { 
   
          if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} i dance?`) 
