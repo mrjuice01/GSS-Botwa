@@ -490,7 +490,7 @@ teks += `⭔ *Link* : ${g.link}\n\n───────────────
 m.reply(teks)
 })
 }
-break
+break;
 
 case 's': case 'sticker': case 'stiker': {
 
@@ -509,7 +509,7 @@ let encmedia = await client.sendVideoAsSticker(m.chat, media, m, { packname: glo
 m.reply(`Send/Reply Images/Videos/Gifs With Captions ${prefix+command}\nVideo Duration 1-9 Seconds`)
 }
 }
-break
+break;
 
 
 case 'bug': case 'request': case 'report': {
@@ -539,7 +539,7 @@ case 'bug': case 'request': case 'report': {
             })
 
         }
-        break
+        break;
 
   
           case "ai": case "gpt":   
@@ -595,7 +595,7 @@ case 'bug': case 'request': case 'report': {
               m.reply("Erroring :"+ error.message);  
             }  
           }  
-            break;;  
+            break;
             case "sc": case "script": case "scbot":  
              m.reply("https://github.com/MatrixCoder0101/GSS-Botwa");  
             break;
