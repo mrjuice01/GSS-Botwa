@@ -325,7 +325,7 @@ break;
 
  case 'bard': 
    if (!text) throw `*Chat With Bard AI*\n\n*𝙴xample usage*\n*◉ ${prefix + command} Hello*\n*◉ ${prefix + command} write a hello world program in python*`;  
-  
+ const thinking = await client.sendMessage(m.chat, { text: 'Thinking...' }); 
  const MODEL_NAME = "models/chat-bison-001"; 
  const API_KEY = process.env.API_KEY; 
   
@@ -348,7 +348,16 @@ break;
      }, 
   }); 
       
-  await m.reply(`${result[0].candidates[0].content}`);  
+ // await m.reply(`${result[0].candidates[0].content}`);  
+    await client.relayMessage(m.chat, {
+      protocolMessage: {
+        key: thinking.key,
+        type: 14,
+        editedMessage: {
+          conversation: result[0].candidates[0].content
+        }
+      }
+    }, {});
   
  } 
   
