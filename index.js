@@ -1,4 +1,3 @@
-require('./config');
 const sessionName = "session";
 const express = require('express')
 const moment = require("moment-timezone"); 
