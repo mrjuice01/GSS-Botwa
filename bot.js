@@ -228,6 +228,8 @@ await client.sendMessage(m.chat, reactionMessage)
 ┆❏.bard 🅕 
 ╰–––––––––––––––༓
 ╭––『 *Bot* 』ﾠ 
+┆❏.ping 🅕 
+┆❏.alive 🅕 
 ┆❏.bug 🅕 
 ┆❏.setbio 🅕 
 ┆❏.setname 🅕 
@@ -374,16 +376,7 @@ case 'insta': case 'apk': case 'yts': case 'sticker':
   m.reply("This feature is Comming Soon");
 break;
 
- case 'animedance':{ 
-  
-  
-  
-  waifudd = await axios.get(`https://waifu.pics/api/sfw/dance`)        
-             await client.sendImage({ image: { url:waifudd.data.url}}).catch(err => { 
-                     return('Error!') 
-                 }) 
-                 } 
- break;
+
   
 
  
