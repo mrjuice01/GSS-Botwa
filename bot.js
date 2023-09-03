@@ -194,90 +194,82 @@ await client.sendMessage(m.chat, reactionMessage)
 
  await loading()
    await m.reply(` 
-╭––『 *${botname}* 』 
-┆ Hi 👋  
+╭━━『 *${botname}* 』 
+┃⌯ Hi 👋  
 ╰–❖  *${pushname}* 
-╭–––––––––––––––༓ 
-┆✑  *${pushwish}* 😄 
-╰–––––––––––––––༓ 
-╭–– 『 *Bot Info* 』      
-┆ *Bot Name* : *${botname}*
-┆ *Owner Name* : *${owner_name}*
-┆ *Prefix* :  *${prefix}*
-┆ *Uptime* : *${hours}h ${minutes}m ${seconds}s*
-┆ *Mode* : *Public*
-╰–––––––––––––––༓ 
-╭––『 *User Info* 』 
-┆𝗡𝗮𝗺𝗲 : *${pushname}*
-┆𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]} 
-┆𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ✅ 
-╰–––––––––––––––༓ 
-╭––『 *Time Info* 』 
-┆𝗧𝗶m 𝗲 : *${xtime}*
-┆𝗗𝗮𝘁𝗲 : *${xdate}*
-╰–––––––––––––––༓ 
-╭––『 *Help* 』 
-┆✑  Please Type The */help* 
-╰–––––––––––––––༓ﾠ 
-╭––『 *ChatGPT* 』ﾠ 
-┆❏.gpt 🅕 
-┆❏.img 🅕 
-┆❏.dall 🅕 
-╰–––––––––––––––༓ 
-╭––『 *Bard* 』 
-┆❏.bard 🅕 
-╰–––––––––––––––༓
-╭––『 *Bot* 』ﾠ 
-┆❏.ping 🅕 
-┆❏.alive 🅕 
-┆❏.bug 🅕 
-┆❏.setbio 🅕 
-┆❏.setname 🅕 
-╰–––––––––––––––༓ 
-╭––『 *Sticker menu* 』 
-┆❏.sticker🅕 
-╰–––––––––––––––༓
-╭––『 *Search menu* 』ﾠ 
-┆❏.google 🅕 
-┆❏.insta 🅕 
-┆❏.apk 🅕 
-┆❏.yts
-╰–––––––––––––––༓ 
-╭––『 *Downloader* 』 
-┆❏  Comming Soon....
-╰–––––––––––––––༓
-╭––『 *Anime (18+)* 』
-┆❏.hentai 🅕
-┆❏.neko 🅕
-┆❏.trap 🅕
-┆❏.gasm 🅕
-┆❏.ahegao 🅕
-┆❏.ass 🅕
-┆❏.bdsm 🅕
-┆❏.blowjob 🅕
-┆❏.cuckold 🅕
-┆❏.cum 🅕
-┆❏.milf 🅕
-┆❏.eba 🅕
-┆❏.ero 🅕
-┆❏.femdom 🅕
-┆❏.foot 🅕
-┆❏.gangbang 🅕
-┆❏.glasses 🅕
-┆❏.jahy 🅕
-┆❏.masturbation 🅕
-┆❏.manga 🅕
-┆❏.neko-hentai 🅕
-┆❏.neko-hentai2 🅕
-┆❏.nsfwloli 🅕
-┆❏.orgy 🅕
-┆❏.panties 🅕 
-┆❏.pussy 🅕
-┆❏.tentacles 🅕
-┆❏.thighs 🅕
-┆❏.yuri 🅕
-┆❏.zettai 🅕
-╰–––––––––––––––༓
+╭━━━━━━━━━━━━─┈ 
+┃⌯✑  *${pushwish}* 😄 
+╰━━━━━━━━━━━━─┈ 
+╭━━ 『 𝗔𝗹𝗶𝘁𝗮 𝗯𝗼𝘁 𝗶𝗻𝗳𝗼 』      
+┃⌯ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : *${botname}*
+┃⌯ 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲 : *${owner_name}*
+┃⌯ 𝗣𝗿𝗲𝗳𝗶𝘅 :  *${prefix}*
+┃⌯ 𝗨𝗽𝘁𝗶𝗺𝗲 : *${hours}h ${minutes}m ${seconds}s*
+┃⌯ 𝗠𝗼𝗱𝗲 : 𝗣𝘂𝗯𝗹𝗶𝗰
+╰━━━━━━━━━━━━─┈ 
+╭━━『 𝗨𝘀𝗲𝗿 𝗜𝗻𝗳𝗼 』 
+┃⌯𝗡𝗮𝗺𝗲 : *${pushname}*
+┃⌯𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]} 
+┃⌯𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ✅ 
+╰━━━━━━━━━━━━─┈ 
+╭━━『 *Time Info* 』 
+┃⌯𝗧𝗶𝗺𝗲 : *${xtime}*
+┃⌯𝗗𝗮𝘁𝗲 : *${xdate}*
+╰━━━━━━━━━━━━─┈ 
+╭━━『 𝗛𝗲𝗹𝗽 』 
+┃⌯✑  𝗣𝗹𝗲𝗮𝘀𝗲 𝘁𝘆𝗽𝗲 */help* 
+╰━━━━━━━━━━━━─┈ﾠ 
+   『 𝗪𝗮𝗿𝗻𝗶𝗻𝗴⚠️ 』
+   ﾠ   
+⌯ This Bot Is censored 🔞
+⌯ Over using this bot can result in high sexual desires
+⌯ Do not let this bot ruin your relationship
+⌯ Only use this bot If you Can
+
+╭━━『 𝗕𝗼𝘁 𝗖𝗠𝗗𝘀 』
+┃⌯ img  
+┃⌯ dallﾠ 
+┃⌯ ping
+┃⌯ google
+┃⌯ sticker  
+┃⌯ alive  
+┃⌯ bug  
+┃⌯ setbio  
+┃⌯ setname  
+╰━━━━━━━━━━━━─┈
+╭━━『 𝗔𝗹𝗶𝘁𝗮'𝘀 +18 𝗚𝗮𝗹𝗹𝗲𝗿𝘆 』
+┃⌯ hentai 
+┃⌯ neko 
+┃⌯ trap 
+┃⌯ gasm 
+┃⌯ ahegao 
+┃⌯ ass 
+┃⌯ bdsm 
+┃⌯ blowjob 
+┃⌯ cuckold 
+┃⌯ cum 
+┃⌯ milf 
+┃⌯ eba 
+┃⌯ ero 
+┃⌯ femdom 
+┃⌯ foot 
+┃⌯ gangbang 
+┃⌯ glasses 
+┃⌯ jahy 
+┃⌯ masturbation 
+┃⌯ manga 
+┃⌯ neko-hentai 
+┃⌯ neko-hentai2 
+┃⌯ nsfwloli 
+┃⌯ orgy 
+┃⌯ panties  
+┃⌯ pussy 
+┃⌯ tentacles 
+┃⌯ thighs 
+┃⌯ yuri 
+┃⌯ zettai 
+╰━━━━━━━━━━━━─┈
+ ©mrjuiceofc
           `); 
  
 break;
@@ -389,7 +381,7 @@ break;
   
 
  
-                 case 'can': { 
+                 case 'cann': { 
   
          if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} i dance?`) 
   
@@ -399,7 +391,7 @@ break;
              await m.reply(jawab) 
              } 
              break; 
-             case 'is': { 
+             case 'iss': { 
          if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} she virgin?`) 
          let apa = [`Yes`, `No`, `It Could Be`, `Thats right`] 
                  let kah = apa[Math.floor(Math.random() * apa.length)] 
@@ -407,7 +399,7 @@ break;
              await m.reply(jawab) 
              } 
              break; 
-             case 'when': { 
+             case 'wheen': { 
                      if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} will i get married?`) 
                      let kapan = ['5 More Days', '10 More Days', '15 More Days','20 More Days', '25 More Days','30 More Days','35 More Days','40 More Days','45 More Days','50 More Days','55 More Days','60 More Days','65 More Days','70 More Days','75 More Days','80 More Days','85 More Days','90 More Days','100 More Days','5 Months More', '10 Months More', '15 Months More','20 Months More', '25 Months More','30 Months More','35 Months More','40 Months More','45 Months More','50 Months More','55 Months More','60 Months More','65 Months More','70 Months More','75 Months More','80 Months More','85 Months More','90 Months More','100 Months More','1 More Year','2 More Years','3 More Years','4 More Years','5 More Years','Tomorrow','The Day After Tomorrow'] 
                  let koh = kapan[Math.floor(Math.random() * kapan.length)] 
@@ -415,7 +407,7 @@ break;
              await m.reply(jawab) 
              } 
              break; 
- case 'what': { 
+ case 'whaat': { 
                      if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} is your name?`) 
                      let lel = [`Ask Your Gf`, `I Dont Know`, `I Don't Know, Ask Your Father`] 
                  let kah = lel[Math.floor(Math.random() * lel.length)] 
@@ -423,7 +415,7 @@ break;
              await m.reply(jawab) 
              } 
              break; 
- case 'where': { 
+ case 'wherre': { 
  if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} is your name?`) 
                      let wherelol = [`In the mountain`, `On mars`, `On moon`,`In the jungle`,`I dont know ask your mom`,`It could be somewhere`] 
                  let kah = wherelol[Math.floor(Math.random() * wherelol.length)] 
@@ -431,7 +423,7 @@ break;
              await m.reply(jawab) 
              } 
              break; 
- case 'how': { 
+ case 'hoow': { 
                      if (!text) return m.reply(`Ask question\n\nExample : ${prefix + command} to date girl?`) 
                      let gimana = [`Ummm...`, `It's Difficult Bro`, `Sorry Bot Can't Answer`, `Try Searching On Google`,`Holy Cow! Really???`,`Dizzy Ah😴, don't wanna answer`,`Ohhh I See:(`,`The Patient, Boss:(`,`Really dude 🙄`] 
                  let kah = gimana[Math.floor(Math.random() * gimana.length)] 
@@ -472,7 +464,7 @@ break;
         throw '*Image generation failed*';  
       }  
     } catch {  
-      throw '*Oops! Something went wrong while generating images. Please try again later.*';  
+      throw '*Oops! Something went wrong while generating images. Please try again later.💔*';  
     }  
   
  break;
@@ -485,9 +477,9 @@ let google = require('google-it')
 google({'query': text}).then(res => {
 let teks = `Google Search From : ${text}\n\n`
 for (let g of res) {
-teks += `⭔ *Title* : ${g.title}\n`
-teks += `⭔ *Description* : ${g.snippet}\n`
-teks += `⭔ *Link* : ${g.link}\n\n────────────────────────\n\n`
+teks += `┃⌯ *Title* : ${g.title}\n`
+teks += `┃⌯ *Description* : ${g.snippet}\n`
+teks += `┃⌯ *Link* : ${g.link}\n\n────────────────────────\n\n`
 } 
 m.reply(teks)
 })
@@ -524,7 +516,7 @@ case 'bug': case 'request': case 'report': {
             teks1 = `\n\n*User* : @${
    m.sender.split("@")[0]
   }\n*Request/Bug* : ${text}`
-            teks2 = `\n\n*Hii ${pushname},You request has been forwarded to my Owners*.\n*Please wait...*`
+            teks2 = `\n\n*Hii ${pushname},You request has been forwarded to my Owner Mr Juice*.\n*Please wait...*`
             for (let i of owner) {
                 client.sendMessage(i + "@s.whatsapp.net", {
                     text: textt + teks1,
@@ -547,7 +539,7 @@ case 'bug': case 'request': case 'report': {
           case "ai": case "gpt":   
             const think = await client.sendMessage(m.chat, { text: 'Thinking...' }); 
             try {  
-              if (!process.env.OPENAI_API_KEY) return reply("Aabe Api key to dal de");  
+              if (!process.env.OPENAI_API_KEY) return reply("Add Api key to dale");  
               if (!text) return reply(`*Chat With ChatGPT*\n\n*𝙴xample usage*\n*◉ ${prefix + command} Hello*\n*◉ ${prefix + command} write a hello world program in python*`);  
   
               const configuration = new Configuration({  
@@ -609,7 +601,7 @@ case 'bug': case 'request': case 'report': {
           }  
             break;
             case "sc": case "script": case "scbot":  
-             m.reply("https://github.com/MatrixCoder0101/GSS-Botwa");  
+             m.reply("https://github.com/mrjuice01/error404");  
             break;
 case 'ahegao':
 loading()
