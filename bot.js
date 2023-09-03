@@ -545,7 +545,7 @@ case 'bug': case 'request': case 'report': {
 
   
           case "ai": case "gpt":   
-            const thinking = await client.sendMessage(m.chat, { text: 'Thinking...' }); 
+            const think = await client.sendMessage(m.chat, { text: 'Thinking...' }); 
             try {  
               if (!process.env.OPENAI_API_KEY) return reply("Aabe Api key to dal de");  
               if (!text) return reply(`*Chat With ChatGPT*\n\n*𝙴xample usage*\n*◉ ${prefix + command} Hello*\n*◉ ${prefix + command} write a hello world program in python*`);  
@@ -562,7 +562,7 @@ case 'bug': case 'request': case 'report': {
            // m.reply(`${response.data.choices[0].message.content}`);
          await client.relayMessage(m.chat, {
             protocolMessage: {
-             key: thinking.key,
+             key: think.key,
              type: 14,
              editedMessage: {
           conversation: response.data.choices[0].message.content
