@@ -1,9 +1,11 @@
+require('./config');
 const sessionName = "session";
 const express = require('express')
+const moment = require("moment-timezone"); 
 const app = express()
 const port = 3000
-const donet = "https://github.com/CyberExpert0101";
-const owner = ["919938770375"]; // Put your number here ex: ["91xxxxxxxxx"]
+const owner =[919938770375]
+
 const {
   default: goutamConnect,
   useMultiFileAuthState,
@@ -11,6 +13,7 @@ const {
   fetchLatestBaileysVersion,
   makeInMemoryStore,
   jidDecode,
+  downloadMediaMessage,
   proto,
   getContentType,
 } = require("@adiwajshing/baileys");
@@ -182,7 +185,7 @@ async function startHisoka() {
   console.log(`using WA v${version.join(".")}, isLatest: ${isLatest}`);
   console.log(
     color(
-      figlet.textSync("WHATSAPP-GPT", {
+      figlet.textSync("GSS-Botwa", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -347,13 +350,28 @@ async function startHisoka() {
       }
     } else if (connection === "open") {
       console.log(color("Bot success conneted to server", "green"));
-      console.log(color("Follow: on GitHub: @CyberExpert0101", "yellow"));
+      console.log(color("Follow: on GitHub: @MatrixCoder0101", "yellow"));
       console.log(color("Type /menu to see menu"));
-      client.sendMessage(owner + "@s.whatsapp.net", {
+
+async function setBio(){
+let status = "📆 "+moment.tz('Asia/Colombo').format('DD/MM/YYYY')+" ⌚ "+moment.tz('Asia/Colombo').format('HH:mm:ss')+" Goutam "+" Runtime: "+Math.floor(process.uptime() / 3600)+"h "+Math.floor((process.uptime() % 3600) / 60)+"m "+Math.floor(process.uptime() % 60)+"s "
+
+await client.updateProfileStatus(status);
+return "Done"
+}
+
+await client.sendMessage(owner + "@s.whatsapp.net", {
+        text: `*Bot Secsessfully Connected to Server*`,
+});
+setInterval(setBio, 10000);
+
+ /*     client.sendMessage(owner + "@s.whatsapp.net", {
         text: `ChatGPT Sucsessfully Connected to Server!\n${donet}`,
-      });
+      }); */
+      
     }
     // console.log('Connected...', update)
+    
   });
 
   client.ev.on("creds.update", saveCreds);
@@ -442,14 +460,16 @@ async function startHisoka() {
 startHisoka();
 
 
+
+
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
 app.listen(port, () => {
-  console.log(`app listening on port ${port}`)
+  console.log(`Example app listening on port ${port}`)
 })
-
 
 let file = require.resolve(__filename);
 fs.watchFile(file, () => {
